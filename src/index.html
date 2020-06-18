@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <h1>Bulls&Cows</h1>
+    <input type="text" class = "input_number">
+    <button class ="btn">try</button>
+    <ul class = "attempts"></ul>
+    <main class="main">
+      <h2 class="secondary-heading">Правила игры</h2>
+      <ul class="list">
+        <li class="list__item">Компьютер загадывает случайное число из 4 разных цифр;</li>
+        <li class="list__item">Ваша задача угадать их;</li>
+        <li class="list__item">Компьютер будет давать подсказки (введённое число: сколько быков, сколько коров);</li>
+        <li class="list__item">Бык значит, что число угадано верно и находится на своём месте;</li>
+        <li class="list__item">Корова - число верно угадано, но не своем месте;</li>
+        <li class="list__item">У вас всего 5 попыток;</li>
+        <li class="list__item">
+          <strong>Пример:</strong> загадано 1234, введено 1345, результат: 1 бык (единица угадана на своём месте) и 2 коровы (3 и 4 присутствуют, но не на своих местах);
+        </li>
+      </ul>
+    </main>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
