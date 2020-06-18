@@ -42,6 +42,9 @@ button.addEventListener('click', function(ev) {
 
     if (bullsNum === 4) {
       alert('congratulations, you are winner!');
+      input.value = '';
+      attemptsList.innerHTML = '';
+      attemptsNumber = 0;
     } else {
       attemptsNumber++;
       generateAttempt(enteredNumber, bullsNum, cowsNum);
